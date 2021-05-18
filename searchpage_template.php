@@ -1,5 +1,5 @@
 <?php
-/**
+/*
  * Template Name: Search Page Template
  * Description: This is a WordPress page template used for including a basic search field immediately above any page's content.
  * The code snippet comes directly from the WordPress Codex online documentation for "Creating a Search Page"
