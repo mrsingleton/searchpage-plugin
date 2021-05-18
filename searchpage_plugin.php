@@ -1,6 +1,8 @@
 <?php
 /*
 Plugin Name: Search Page Plugin
+Description: Based on WPExplorer's "Add Page Templates to WordPress with a Plugin"
+by Harri Bell-Thomas. See https://www.wpexplorer.com/wordpress-page-templates-plugin/
 Plugin URI: https://github.com/mrsingleton/searchpage_plugin
 Version: 1.0
 Author: Malik Singleton
