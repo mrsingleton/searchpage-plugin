@@ -6,7 +6,6 @@
  * See wordpress.org/support/article/creating-a-search-page/
  */
 
-
 ?>
 <?php get_header(); ?>
 
