@@ -5,16 +5,28 @@
  * The code snippet comes directly from the WordPress Codex online documentation for "Creating a Search Page"
  * See wordpress.org/support/article/creating-a-search-page/
  */
-
 ?>
+
 <?php get_header(); ?>
 
-<div class="wrap">
-    <div id="primary" class="content-area">
-        <main id="main" class="site-main" role="main">
-        <?php get_search_form(); ?>
-        </main><!-- #main -->
-    </div><!-- #primary -->
-</div><!-- .wrap -->
+<div class="content">
 
-<?php get_footer(); 
+	<article class="post single entry">
+	
+		<div class="post-inner section-inner thin">
+		                
+		<header class="post-header">
+			<h2 class="post-title"><?php the_title(); ?></h2>
+		</header><!-- .post-header -->
+	                                                	            
+        <div class="post-content entry-content">
+            
+            <?php get_search_form(); ?>
+            
+        </div><!-- .post-content -->
+        	            	                        	
+	</article><!-- .post -->
+	
+</div><!-- .content -->
+
+<?php get_footer(); ?>
