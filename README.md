@@ -11,7 +11,22 @@ I already knew that the WordPress Codex had documentation for how to include var
 So the majority of the work behind this plugin was coded by Harri Bell-Thomas and published by WPExplorer. Thank you open source community! Likewise, I'm sharing my particular approach here because you could customize things further by determining the contents of a non-standard page that you would want for your own purposes and adjust that template code accordingly.
 
 ### Edit 1: Declaration Comments
-Every plugin's main PHP document begins with a comment section in which you declare very standard details that distinguish your plugin from others. Make the following section your own by editing the name, description, uri, version, author, and author uri.
+Every plugin's main PHP document begins with a comment section in which you declare very standard details that distinguish your plugin from others. Make the following section your own by editing the name, description, uri, version, author, and author uri. Note that I included more of the optional details than the original.
+
+Harri's
+```php
+
+<?php
+/*
+Plugin Name: Page Template Plugin : 'Good To Be Bad'
+Plugin URI: http://www.wpexplorer.com/wordpress-page-templates-plugin/
+Version: 1.1.0
+Author: WPExplorer
+Author URI: http://www.wpexplorer.com/
+*/
+```
+
+Mine
 
 ```php
 <?php
