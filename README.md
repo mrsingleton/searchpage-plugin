@@ -45,7 +45,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.txt
 ```
 
 ### Edits 2 and 3: Class Slug
-Update the plugin's unique identifier in the initial block of code that instantiates the class. In my case, I changed the original tutorial's "PageTemplater" to a name that suits my purposes, i.e. "SearchPage". You can use camel-casing or include the underscore character but your slug name can't contain any spaces.
+Update the plugin's unique identifier in the initial block of code that instantiates the class. In my case, I changed the original tutorial's `PageTemplater` to a name that suits my purposes, i.e. `SearchPage`. You can use camel-casing or include the underscore character but your slug name can't contain any spaces.
 
 Harri's example:
 
